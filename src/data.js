@@ -6,6 +6,7 @@ export const PERSONAL = {
   linkedin: 'https://linkedin.com/in/biharibhau',
   github: 'https://github.com/bihari-bhau',
   location: 'Gurugram, Haryana, India',
+  resumeUrl: 'https://drive.google.com/file/d/19MVYcHhVpRPVf22rZZyzOMnAyyw8ml_8/view?usp=sharing',
   roles: [
     'LLM Post-Training Engineer',
     'Full-Stack Developer',
