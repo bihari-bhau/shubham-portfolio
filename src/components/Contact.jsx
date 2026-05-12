@@ -4,7 +4,8 @@ const LINKS = [
   { href: `mailto:${PERSONAL.email}`, icon: '✉', cls: '', label: 'Email', val: PERSONAL.email },
   { href: PERSONAL.linkedin, icon: 'in', cls: 'alt', label: 'LinkedIn', val: 'linkedin.com/in/biharibhau', blank: true },
   { href: PERSONAL.github, icon: '⌥', cls: '', label: 'GitHub', val: 'github.com/bihari-bhau', blank: true },
-  { href: '#', icon: '📍', cls: 'alt', label: 'Location', val: PERSONAL.location },
+  { href: PERSONAL.resumeUrl, icon: '↓', cls: 'alt', label: 'Resume', val: 'View & Download on Google Drive', blank: true },
+  { href: '#', icon: '📍', cls: '', label: 'Location', val: PERSONAL.location },
 ]
 
 export default function Contact() {
