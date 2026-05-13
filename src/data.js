@@ -24,7 +24,7 @@ export const STATS = [
   { num: 500, suffix: '+', label: 'LLM Responses Evaluated Weekly' },
   { num: 54,  suffix: '',  label: 'Python Libraries Benchmarked' },
   { num: 33,  suffix: '',  label: 'Courses on Bihar Skill Hub' },
-  { num: 2,   suffix: '',  label: 'Live Deployed Products' },
+  { num: 4,   suffix: '',  label: 'Live Deployed Products' },
 ]
 
 export const EXPERIENCE = [
@@ -81,6 +81,16 @@ export const SKILLS = [
 export const PROJECTS = [
   {
     num: '01',
+    title: 'Bihar Skill Hub',
+    period: '2025 – Present',
+    desc: 'A fully deployed educational platform targeting students in Bihar, featuring 33 courses across 11 skill categories. Built with JWT authentication, course enrollment, user profiles, success stories, and Razorpay payment integration. Deployed across Vercel (frontend) and Railway (backend + PostgreSQL) with CI/CD via GitHub.',
+    stack: ['React', 'Django REST', 'PostgreSQL', 'Razorpay', 'JWT', 'Vercel', 'Railway'],
+    github: 'https://github.com/bihari-bhau',
+    live: 'https://biharskillhub.co.in',
+    isLive: true,
+  },
+  {
+    num: '02',
     title: 'LLM Response Quality Evaluator',
     period: 'Mar 2026',
     desc: 'A Streamlit tool to evaluate and compare LLM responses across 5 RLHF-inspired quality dimensions with a weighted scoring formula — IF×0.25, Truth×0.25, Correctness×0.20, Writing×0.15, Verbosity×0.15. Auto-logs to JSONL and surfaces multi-turn degradation patterns after 5+ entries. Directly inspired by post-training work at Ethara AI.',
@@ -90,14 +100,34 @@ export const PROJECTS = [
     isLive: false,
   },
   {
-    num: '02',
-    title: 'Bihar Skill Hub',
-    period: '2025 – Present',
-    desc: 'A fully deployed educational platform targeting students in Bihar, featuring 33 courses across 11 skill categories. Built with JWT authentication, course enrollment, user profiles, success stories, and Razorpay payment integration. Deployed across Vercel (frontend) and Railway (backend + PostgreSQL) with CI/CD via GitHub.',
-    stack: ['React', 'Django REST', 'PostgreSQL', 'Razorpay', 'JWT', 'Vercel', 'Railway'],
-    github: 'https://github.com/bihari-bhau',
-    live: 'https://biharskillhub.co.in',
-    isLive: true,
+  num: '03',
+  title: 'LLM Toolkit',
+  period: '2025 – Present',
+  desc: '...', // ⚠️ Need your input — what is this project exactly?
+  stack: [],
+  github: 'https://github.com/bihari-bhau/llm-toolkit',
+  live: 'https://llm-toolkit.vercel.app/',
+  isLive: false,
+  },
+  {
+  num: '04',
+  title: 'Taskflow',
+  period: '2025 – Present',
+  desc: '...', // ⚠️ Need your input — what does Taskflow do?
+  stack: [],
+  github: 'https://github.com/bihari-bhau/taskflow',
+  live: '',
+  isLive: false,
+  },
+  {
+  num: '05',
+  title: 'RLHF Eval',
+  period: '2025 – Present',
+  desc: 'Production-grade LLM evaluation platform built during an AI Post-Training internship. Features side-by-side A/B prompt rating across 6 quality dimensions (Truthfulness, Correctness, Writing, Verbosity, Instruction Following, Overall) on a 1–6 scale with weighted scoring. Includes an analytics dashboard, Kaiju benchmarking integration, and Docker Compose deployment.',
+  stack: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Docker', 'Railway'],
+  github: 'https://github.com/bihari-bhau/rlhf-eval',
+  live: '',
+  isLive: false,
   },
 ]
 
