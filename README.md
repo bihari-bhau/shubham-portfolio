@@ -144,7 +144,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-Made with ❤️ from Bihar · Gurugram, India
+Made with ❤️ from Bihar 
+ Gurugram, India
 
 ⭐ Star this repo if you found it helpful!
 
