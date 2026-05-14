@@ -103,8 +103,8 @@ export const PROJECTS = [
   num: '03',
   title: 'LLM Toolkit',
   period: '2025 – Present',
-  desc: '...', // ⚠️ Need your input — what is this project exactly?
-  stack: [],
+  desc: 'AI-powered LLM evaluation toolkit - Prompt Quality Scorer & Multi-turn Conversation Analyzer. Built with Next.js + Claude API.',
+  stack: ['Next.js', 'Claude API', 'TypeScript 5', 'Vercel', 'Tailwind CSS 3'],
   github: 'https://github.com/bihari-bhau/llm-toolkit',
   live: 'https://llm-toolkit.vercel.app/',
   isLive: false,
