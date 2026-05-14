@@ -53,6 +53,18 @@ export const EXPERIENCE = [
       'Worked in Agile workflows with Git-based version control, debugging, and iterative development',
     ],
   },
+  {
+    company: 'BIPARD',
+    role: 'Cisco Networking Intern',
+    location: 'Patna, Bihar — Onsite',
+    period: 'June 2025 – Aug 2025',
+    color: 'cyan',
+    bullets: [
+      'Deployed and troubleshot <b>IPv4/IPv6 networks</b> using Cisco Packet Tracer and GNS3 simulation environments',
+      'Secured network infrastructure using <b>port security, SSH, and VLAN segmentation</b> best practices',
+      'Monitored network performance with <b>Wireshark and SNMP</b>, diagnosing and resolving connectivity issues',
+    ],
+  },
 ]
 
 export const SKILLS = [
@@ -102,7 +114,7 @@ export const PROJECTS = [
   {
   num: '03',
   title: 'LLM Toolkit',
-  period: '2025 – Present',
+  period: '2026 – Present',
   desc: 'AI-powered LLM evaluation toolkit - Prompt Quality Scorer & Multi-turn Conversation Analyzer. Built with Next.js + Claude API.',
   stack: ['Next.js', 'Claude API', 'TypeScript 5', 'Vercel', 'Tailwind CSS 3'],
   github: 'https://github.com/bihari-bhau/llm-toolkit',
@@ -112,7 +124,7 @@ export const PROJECTS = [
   {
   num: '04',
   title: 'Taskflow',
-  period: '2025 – Present',
+  period: '2026 – Present',
   desc: '...', // ⚠️ Need your input — what does Taskflow do?
   stack: [],
   github: 'https://github.com/bihari-bhau/taskflow',
@@ -126,7 +138,7 @@ export const PROJECTS = [
   desc: 'Production-grade LLM evaluation platform built during an AI Post-Training internship. Features side-by-side A/B prompt rating across 6 quality dimensions (Truthfulness, Correctness, Writing, Verbosity, Instruction Following, Overall) on a 1–6 scale with weighted scoring. Includes an analytics dashboard, Kaiju benchmarking integration, and Docker Compose deployment.',
   stack: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Docker', 'Railway'],
   github: 'https://github.com/bihari-bhau/rlhf-eval',
-  live: '',
+  live: 'https://rlhf-eval.vercel.app/',
   isLive: false,
   },
 ]
@@ -141,6 +153,7 @@ export const EDUCATION = {
     'PCAP – Python Certified Associate',
     'Google Data Analytics',
     'Cisco Cybersecurity',
+    'Cisco Certified Network Associate',
   ],
 }
 
