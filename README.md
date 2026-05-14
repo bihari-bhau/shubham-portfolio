@@ -1,4 +1,4 @@
-# 🚀 Shubham Kumar — Portfolio
+# 🚀 Shubham Singh — Portfolio
 
 <div align="center">
 
