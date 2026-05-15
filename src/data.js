@@ -125,8 +125,8 @@ export const PROJECTS = [
   num: '04',
   title: 'Taskflow',
   period: '2026 – Present',
-  desc: '...', // ⚠️ Need your input — what does Taskflow do?
-  stack: [],
+  desc: '...',
+  stack: ['React.js', 'Django'],
   github: 'https://github.com/bihari-bhau/taskflow',
   live: '',
   isLive: false,
