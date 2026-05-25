@@ -132,6 +132,7 @@ Output goes into the `dist/` folder, ready to deploy on Vercel or any static hos
 | Email | shubham@biharskillhub.co.in |
 | LinkedIn | [linkedin.com/in/biharibhau](https://linkedin.com/in/biharibhau) |
 | GitHub | [github.com/bihari-bhau](https://github.com/bihari-bhau) |
+| X | [https://x.com/bihari__bhau](https://x.com/bihari__bhau) |
 | Portfolio | ([https://shubham-portfolio.vercel.app](https://shubham-portfolio-topaz-tau.vercel.app/)) |
 
 ---
