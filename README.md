@@ -10,7 +10,7 @@
 
 **A fast, responsive personal portfolio showcasing projects, skills, and experience.**
 
-[🌐 Live Demo]([https://shubham-portfolio.vercel.app](https://shubham-portfolio-topaz-tau.vercel.app/)) · [📧 Contact](mailto:sdr95958@gmail.com) · [💼 LinkedIn](https://linkedin.com/in/biharibhau)
+[🌐 Live Demo](https://shubham-portfolio-topaz-tau.vercel.app/) · [📧 Contact](mailto:sdr95958@gmail.com) · [💼 LinkedIn](https://linkedin.com/in/biharibhau) · [🐦 X](https://x.com/bihari__bhau)
 
 </div>
 
@@ -110,18 +110,48 @@ Output goes into the `dist/` folder, ready to deploy on Vercel or any static hos
 
 | Section | Description |
 |---------|-------------|
-| **Hero** | Animated intro with scroll counter stats |
-| **About** | Background, tech skills, and interests |
+| **Hero** | Animated intro with typewriter roles & rotating skill cube |
+| **Stats** | Live counters — 500+ RLHF samples, 100+ repos, 38 criteria, 6+ LLMs |
+| **About** | Background, journey from EEE → Full-Stack → AI/ML |
+| **Experience** | Ethara AI, KodNest, BIPARD — timeline cards |
 | **Projects** | Featured projects with live & GitHub links |
-| **Experience** | Education & work experience timeline |
+| **Skills** | Languages, Frontend, Backend, AI/LLM, DevOps |
+| **Education** | B.Tech EEE + certifications |
 | **Contact** | Email form + social links |
 
 ---
 
 ## 🌍 Featured Projects
 
+### 🦖 Kaiju — AI Coding Agent Benchmark
+> Built on **Commit0** (arXiv:2412.01769 · ICLR 2025). Strips function bodies from 2000+ ⭐ Python libraries via AST manipulation, hands the stubs to AI agents (Claude, GPT-4o, Gemini), and scores pass-rate via pytest. Ships with two custom splits — `ethara` (8 libs) and `ethara-lite` (4 libs).
+>
+> 🔗 [github.com/bihari-bhau/kaiju](https://github.com/bihari-bhau/kaiju)
+
 ### 🎓 Bihar Skill Hub — [biharskillhub.co.in](https://biharskillhub.co.in)
-> Online skill & course platform focused on Bihar's youth. Built with React + Django REST Framework, deployed on Vercel & Railway with PostgreSQL.
+> Online skill & course platform focused on Bihar's youth — 33 courses across 11 categories, JWT auth, Razorpay payments. Built with React + Django REST Framework, deployed on Vercel & Railway with PostgreSQL.
+
+### 📋 TaskFlow — [Live](https://vibrant-inspiration-production-f24a.up.railway.app)
+> Production-ready team task manager with Kanban workflows, RBAC, 6-stat analytics dashboard, attendance tracking, and WebSocket chat. Docker + Nginx on Railway.
+
+### 📊 RLHF Eval
+> Production-grade RLHF dataset builder. Side-by-side A/B prompt rating across 6 quality dimensions on a 1–6 scale, with Kaiju benchmark integration.
+>
+> 🔗 [github.com/bihari-bhau/rlhf-eval](https://github.com/bihari-bhau/rlhf-eval)
+
+### 🧰 LLM Toolkit — [llm-toolkit.vercel.app](https://llm-toolkit.vercel.app/)
+> Modular AI-powered toolkit — Prompt Quality Scorer + Multi-turn Conversation Analyzer. Next.js + Claude API + Supabase.
+
+---
+
+## 📊 At a Glance
+
+```
+500+   RLHF samples annotated
+100+   Python repos benchmarked
+ 38    Automated eval criteria
+  6+   LLMs evaluated (GPT-4o · Claude · Gemini · …)
+```
 
 ---
 
@@ -129,11 +159,11 @@ Output goes into the `dist/` folder, ready to deploy on Vercel or any static hos
 
 | Channel | Link |
 |---------|------|
-| Email | shubham@biharskillhub.co.in |
+| Email | [sdr95958@gmail.com](mailto:sdr95958@gmail.com) |
 | LinkedIn | [linkedin.com/in/biharibhau](https://linkedin.com/in/biharibhau) |
 | GitHub | [github.com/bihari-bhau](https://github.com/bihari-bhau) |
-| X | [https://x.com/bihari__bhau](https://x.com/bihari__bhau) |
-| Portfolio | ([https://shubham-portfolio.vercel.app](https://shubham-portfolio-topaz-tau.vercel.app/)) |
+| X | [x.com/bihari__bhau](https://x.com/bihari__bhau) |
+| Portfolio | [shubham-portfolio-topaz-tau.vercel.app](https://shubham-portfolio-topaz-tau.vercel.app/) |
 
 ---
 
@@ -145,8 +175,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-Made with ❤️ from Bihar 
- Gurugram, India
+Made with ❤️ from Bihar · Gurugram, India
 
 ⭐ Star this repo if you found it helpful!
 
